@@ -99,21 +99,21 @@
           <p class="lead text-muted">Thanks for visiting and shopping at our Website! If you have any questions or
             concerns please get in contact with us using the form below!</p>
 
-          <form class="row g-3">
+          <form method="post" action="https://formspree.io/f/xdoyjgoe" class="row g-3">
             <div class="col-md-5">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your full name">
+              <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Your full name">
             </div>
             <div class="col-md-7">
-              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+              <input type="email" class="form-control" name="email" id="exampleFormControlInput2" placeholder="name@example.com">
             </div>
             <div class="col-12">
               <div class="input-group">
-                <textarea class="form-control" aria-label="With textarea" placeholder="Your questions or concerns."
+                <textarea class="form-control" name="textMessage" aria-label="With textarea" placeholder="Your questions or concerns."
                   id="exampleTextArea"></textarea>
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-brand-color">Send Message</button>
+              <button type="submit" name="submit" class="btn btn-brand-color">Send Message</button>
             </div>
           </form>
         </div>
